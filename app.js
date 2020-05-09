@@ -20,7 +20,7 @@ var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_V11";
 mongoose.connect(url);
 
 // //mongoose.connect("mongodb://localhost/yelp_camp_v11");
-//mongoose.connect("mongodb+srv://PreciousNwakama:123Donprecious@yelpcamp-fidu8.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://PreciousNwakama:123Donprecious@yelpcamp-fidu8.mongodb.net/test?retryWrites=true&w=majority");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
