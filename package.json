@@ -1,34 +1,24 @@
 {
-  "name": "v10",
+  "name": "v1",
   "version": "1.0.0",
-  "description": "",
+  "description": "YelpCamp v1",
   "main": "app.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "bootstrap": "^4.5.0",
-    "connect-flash": "^0.1.1",
-    "cool-ascii-faces": "^1.3.4",
-    "ejs": "^3.1.2",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "jquery": "^3.5.1",
-    "method-override": "^3.0.0",
-    "middleware": "^1.0.0",
-    "mongoose": "^5.9.12",
-    "ms": "^2.1.2",
-    "on-finished": "^2.3.0",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^6.0.1",
-    "popper.js": "^1.16.1",
-    "request": "^2.88.2",
-    "statuses": "^2.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Precious",
-  "license": "ISC"
+  "author": "Precious Nwakama",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.1.12",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^3.1.0",
+    "request": "^2.65.0"
+  }
 }

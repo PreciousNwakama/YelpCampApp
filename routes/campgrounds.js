@@ -12,12 +12,13 @@ router.get("/", function (req, res) {
             console.log(err);
         } else {
             request('https://maps.googleapis.com/maps/api/geocode/json?address=sardine%20lake%20ca&key=AIzaSyBtHyZ049G_pjzIXDKsJJB5zMohfN67llM', function (error, response, body) {
-                if (!error && response.statusCode == 200) {
-                    console.log(body); // Show the HTML for the Modulus homepage.
-                    res.render("campgrounds/index", { campgrounds: allCampgrounds });
+                // if (!error && response.statusCode == 200) {
+                //     console.log(body); // Show the HTML for the Modulus homepage.
+                //     res.render("campgrounds/index", { campgrounds: allCampgrounds });
 
-                }
+                // }
             });
+            res.render("campgrounds/index", { campgrounds: allCampgrounds });
         }
     });
 });
